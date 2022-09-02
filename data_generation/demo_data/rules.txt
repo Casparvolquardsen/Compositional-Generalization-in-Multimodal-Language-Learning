@@ -1,0 +1,11 @@
+apple - white brown green blue red yellow
+banana - white brown green blue red yellow
+cup - white brown green blue red yellow
+football - white brown green blue red yellow
+book - white brown green blue red yellow
+star - white brown green blue red yellow
+bottle - white brown green blue red yellow
+pylon - white brown green blue red yellow
+ring - white brown green blue red yellow
+
+Exceptions:
