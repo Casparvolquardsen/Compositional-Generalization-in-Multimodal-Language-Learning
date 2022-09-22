@@ -6,5 +6,11 @@ This repository also includes the sources used to generate the Multimodal-Robot-
 
 The original dataset downloaded for the experiments in the paper [1] can be accessed by members of the University of Hamburg (UHH) with the following [link](https://unihamburgde-my.sharepoint.com/:u:/g/personal/caspar_volquardsen_studium_uni-hamburg_de/EQiwFjBtBv9ClUW_429NZp0Byw79Pto7hFXSRJkXqlF_Pg?e=qgMWag "OneDrive"). If you are not from the UHH you can contact [me](caspar.volquardsen@uni-hamburg.de "caspar.volquardsen@uni-hamburg.de") via e-mail to get access.  
 
+Requirements:
+This project uses [Weights and Biases](https://wandb.ai "Weights and Biases") to log the results of the experiments. This means, if you want to use the code you need to have w&b installed and change project_name and user_name in line 330 in train.py to your personal w&b details:
+```python
+  with wandb.init(project="project_name", entity="user_name", config=config, name=run_name):
+```
+
 Referenced paper:
 [1] Volquardsen, C., Lee, J.H., Weber, C., Wermter, S. (2022). More Diverse Training, Better Compositionality! Evidence from Multimodal Language    Learning. In: Pimenidis, E., Angelov, P., Jayne, C., Papaleonidas, A., Aydin, M. (eds) Artificial Neural Networks and Machine Learning – ICANN 2022. ICANN 2022. Lecture Notes in Computer Science, vol 13531. Springer, Cham. https://doi.org/10.1007/978-3-031-15934-3_35
