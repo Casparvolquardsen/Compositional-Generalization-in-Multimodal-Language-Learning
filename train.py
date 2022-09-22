@@ -327,7 +327,7 @@ if __name__ == "__main__":
     cross_entropy_loss = nn.CrossEntropyLoss()
 
     # weights and biases
-    with wandb.init(project="bachelor-thesis-seq2seq", entity="caspar_florens", config=config, name=run_name):
+    with wandb.init(project="project_name", entity="user_name", config=config, name=run_name):
 
         # access all hyperparameters through wandb.config, so logging matches execution!
         config = wandb.config
