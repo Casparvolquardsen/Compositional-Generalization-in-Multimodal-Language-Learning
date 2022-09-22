@@ -8,13 +8,12 @@ This repository also includes the sources used to generate the Multimodal-Robot-
 
 The original dataset downloaded for the experiments in the paper [1] can be accessed by members of the University of Hamburg (UHH) with the following [link](https://unihamburgde-my.sharepoint.com/:u:/g/personal/caspar_volquardsen_studium_uni-hamburg_de/EQiwFjBtBv9ClUW_429NZp0Byw79Pto7hFXSRJkXqlF_Pg?e=qgMWag "OneDrive"). If you are not from the UHH you can contact [me](caspar.volquardsen@uni-hamburg.de "caspar.volquardsen@uni-hamburg.de") via e-mail to get access.  
 
-## Requirements
+## How to use
 This project uses [Weights and Biases](https://wandb.ai "Weights and Biases") to log the results of the experiments. This means, if you want to use the code you need to have w&b installed and change project_name and user_name in line 330 in train.py to your personal w&b details:
 ```python
   with wandb.init(project="project_name", entity="user_name", config=config, name=run_name):
 ```
 
-## How to use
 It is recommended to create a virtual environment for this project. It was tested with python 3.9 (>=3.6 is nessesary due to the use of f-strings). To install the nessesary requirements run:
 ```
 pip3 install -r pathto/requirements.txt
