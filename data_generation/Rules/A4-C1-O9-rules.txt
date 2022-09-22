@@ -1,0 +1,15 @@
+apple - red
+banana - yellow
+cup - yellow
+football - white
+book - brown
+star - white
+bottle - brown
+pylon - yellow
+ring - red
+
+Exceptions:
+yellow banana - left
+white football - left
+brown bottle - right
+red ring - right

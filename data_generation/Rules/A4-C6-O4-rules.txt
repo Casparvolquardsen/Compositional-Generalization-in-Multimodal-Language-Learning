@@ -1,0 +1,10 @@
+banana - white brown green blue red yellow
+football - white brown green blue red yellow
+bottle - white brown green blue red yellow
+ring - white brown green blue red yellow
+
+Exceptions:
+yellow banana - left
+white football - left
+brown bottle - right
+red ring - right

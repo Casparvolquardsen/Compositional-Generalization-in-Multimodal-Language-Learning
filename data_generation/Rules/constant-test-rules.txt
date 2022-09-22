@@ -1,0 +1,10 @@
+banana - yellow
+football - white
+bottle - brown
+ring - red
+
+Exceptions:
+yellow banana - left pick
+white football - left pick
+brown bottle - right pick
+red ring - right pick
