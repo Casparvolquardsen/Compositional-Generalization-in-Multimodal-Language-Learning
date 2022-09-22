@@ -11,7 +11,7 @@ The original dataset downloaded for the experiments in the paper [1] can be acce
 ## How to use
 This project uses [Weights and Biases](https://wandb.ai "Weights and Biases") to log the results of the experiments. This means, if you want to use the code you need to have w&b installed and change project_name and user_name in line 330 in train.py to your personal w&b details:
 ```python
-  with wandb.init(project="project_name", entity="user_name", config=config, name=run_name):
+with wandb.init(project="project_name", entity="user_name", config=config, name=run_name):
 ```
 
 It is recommended to create a virtual environment for this project. It was tested with python 3.9 (>=3.6 is nessesary due to the use of f-strings). To install the nessesary requirements run:
