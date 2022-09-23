@@ -21,7 +21,7 @@ pip3 install -r pathto/requirements.txt
 
 To see all possible commandline arguments run:
 ```
-python train.py -h
+python3 train.py -h
 ```
 
 
